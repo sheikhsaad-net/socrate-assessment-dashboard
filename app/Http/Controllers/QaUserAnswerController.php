@@ -325,7 +325,6 @@ class QaUserAnswerController extends Controller
 
     public function storeTrackListen(Request $request, $question_id)
     {
-
         // Validate incoming JSON array
         $request->validate([
             'items'                 => 'required|array|max:20',
